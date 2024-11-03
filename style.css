@@ -1,0 +1,1031 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+/* .imgdiv {
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
+
+.imgdiv img {
+  width: 100%;
+} */
+
+.header {
+  width: 100%;
+  height: 140px;
+}
+
+.headerTopDiv {
+  width: 100%;
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.socialIconDiv {
+  width: 17%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 30px;
+  padding-bottom: 6px;
+}
+
+.circleIcon {
+  width: 14%;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #394041;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneIconDiv {
+  width: 42%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.phoneIconDiv .callbtn {
+  background-color: #a2d84c;
+  margin-left: 13px;
+  padding: 7px;
+  padding-top: 6px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: rgb(14, 13, 13);
+    background-color: #febd19;
+    padding: 6px;
+  }
+}
+
+/*====================== navbar====================== */
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navbar img {
+  margin-left: 34px;
+  width: 149px;
+}
+
+.navlist {
+  width: 65%;
+  height: 85px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 14px;
+  gap: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: rgb(15, 15, 15);
+    border-bottom: 8px solid #febd19;
+    padding: 6px;
+  }
+}
+
+.sliderimgdiv {
+  width: 100%;
+  height: 520px;
+}
+
+/*====================== swiper====================== */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/*====================== swiper====================== */
+
+.img-content {
+  width: 1340px;
+  height: 410px;
+  position: absolute;
+  top: 161px;
+  left: 0;
+}
+
+.imgtopcontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftdiv {
+  width: 347px;
+  height: 73px;
+  background-color: #80bd1f;
+}
+
+.rightdiv {
+  width: 347px;
+  height: 73px;
+  background-color: #a2d84c;
+}
+
+.img-content h1 {
+  font-size: 68px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-contentBottomDiv {
+  width: 100px;
+  height: 141px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.img-contentBottomDiv pre {
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+}
+
+.btnDiv button {
+  margin-top: 40px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #febd19;
+  margin-left: 570px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: 6px groove#e79600;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(15, 15, 15);
+    background-color: #e7b025;
+    padding: 6px;
+  }
+}
+
+/*========================our advantage======================= */
+.advantagediv {
+  width: 100%;
+  height: 450px;
+  border: 4px solid transparent;
+  background-color: white;
+}
+
+.adv-top {
+  width: 100%;
+  height: 130px;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.adv-top h1 {
+  margin-top: 32px;
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #668e19;
+}
+
+.sp1 {
+  color: rgb(2, 2, 2);
+}
+
+.adv-top pre {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/*========================bottoms icons======================= */
+
+.bottomIcons {
+  width: 100%;
+  height: 263px;
+  border: 2px solid transparent;
+  margin-top: 5px;
+  display: flex;
+  padding-left: 58px;
+  gap: 36px;
+}
+
+.iconsDiv {
+  width: 215px;
+  height: 260px;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.roundDiv {
+  width: 170px;
+  height: 170px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  margin-left: 20px;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  &:hover {
+    box-shadow: 0 0 30px 5px rgba(14, 14, 14, 0.2);
+    cursor: pointer;
+  }
+}
+
+.icon1 {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.iconp {
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 3px;
+  font-weight: 600;
+}
+
+/*========================about us======================= */
+.aboutusdiv {
+  width: 100%;
+  height: 500px;
+  border: 4px solid transparent;
+  background-image: url(/pics/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutusdiv h1 {
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #668e19;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.aboutusdiv .paradiv {
+  width: 515px;
+  height: 250px;
+  border: 2px solid transparent;
+  margin-top: 40px;
+  margin-left: 81px;
+}
+
+.aboutusdiv .paradiv p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #0c0c0b;
+  margin-top: 5px;
+}
+
+.aboutusdiv .btnDiv1 button {
+  margin-top: 40px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #febd19;
+  margin-left: 75px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: 6px groove#e79600;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(15, 15, 15);
+    background-color: #e7b025;
+    padding: 6px;
+  }
+}
+
+/*========================our services======================= */
+.servicesdiv {
+  width: 100%;
+  height: 470px;
+  border: 2px solid transparent;
+  background-color: white;
+}
+
+.servicesdiv h1 {
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #668e19;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.servicesdiv pre {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.servicesdiv .servicesbottomdiv {
+  width: 1340px;
+  height: 278px;
+  border: 3px solid transparent;
+  margin-top: 4px;
+  display: flex;
+  padding-left: 79px;
+  gap: 18px;
+}
+
+.starcarddiv {
+  width: 280px;
+  height: 212px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-top: 63px;
+  position: relative;
+  text-align: center;
+  background-color: #f2f2f2;
+  transition: all 0.3sec ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 20px 0 rgba(14, 14, 14, 0.2);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+}
+
+.roundstar {
+  width: 80px;
+  height: 80px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  left: 100px;
+  top: -38px;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #febd19;
+}
+
+.starcarddiv h1 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0c0c0b;
+  margin-top: 35px;
+}
+
+.starcarddiv pre {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 45px;
+}
+
+.starcarddiv a {
+  font-size: 20px;
+  font-weight: 900;
+  color: #8ec63f;
+}
+
+/*========================OUR PORTFOLIO======================= */
+
+.portfoliodiv {
+  width: 1345px;
+  height: 734px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: #212121ff;
+}
+
+.portfoliotopdiv {
+  width: 1340px;
+  height: 200px;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.portfoliotopdiv h1 {
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #668e19;
+  text-align: center;
+  padding-top: 33px;
+  font-weight: 600;
+}
+
+.sp2 {
+  color: white;
+}
+
+.portfoliotopdiv pre {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.portfoliotopdiv ul {
+  border: 2px solid transparent;
+  width: 65%;
+  height: 68px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 15px;
+  gap: 18px;
+  margin-left: 220px;
+  padding-top: 5px;
+}
+
+.portfoliotopdiv li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &:hover {
+    color: #ff7b00ff;
+  }
+}
+
+/*========================OUR PORTFOLIO CARDS======================= */
+.portfoliobottomdiv {
+  width: 100%;
+  height: auto;
+  border: 2px solid transparent;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  padding-right: 5px;
+}
+
+.portfoliocards {
+  width: 233px;
+  height: 233px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfoliocards :hover {
+  background-color: #ef4136;
+}
+
+/*===============================2nd page=========================== */
+/*===============================our process======================== */
+
+.processdiv {
+  width: 100%;
+  height: 247px;
+  /* border: 2px solid #111111; */
+  text-align: center;
+  background-color: white;
+}
+
+.processdiv h1 {
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #668e19;
+  margin-top: 75px;
+}
+
+.processdiv pre {
+  margin-top: 9px;
+  font-size: 14px;
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/*===============================our process icon ======================== */
+
+.processiconsdiv {
+  width: 1164px;
+  height: 249px;
+  border: 2px solid transparent;
+  margin: auto;
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.processiconsdiv .icondiv {
+  width: 157px;
+  height: 100%;
+  border: 2px solid transparent;
+  padding-top: 4px;
+}
+
+.processiconsdiv .icondiv .circleicondiv {
+  margin: auto;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  margin-top: 12px;
+  border: 4px solid #d2d2d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.processiconsdiv .icondiv .circleicondiv::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 64px;
+  height: 4px;
+  background-color: #d2d2d4;
+}
+
+.norounddiv {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  top: -19px;
+  background-color: #febd19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+  margin: auto;
+}
+
+.icondiv h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 19px;
+  color: #141414;
+}
+
+.icondiv pre {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 35px;
+}
+
+/*===============================people about us ======================== */
+.aboutdiv {
+  border: 2px solid transparent;
+  width: 100%;
+  height: 545px;
+  text-align: center;
+  margin-top: 180px;
+  background-color: #f2f2f2;
+}
+
+.aboutdiv h1 {
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #668e19;
+  padding-top: 40px;
+}
+
+.aboutdiv pre {
+  font-size: 14px;
+  color: #c4c2c2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/*===============================johndiv ======================== */
+.peoplereviewdiv {
+  border: 2px solid transparent;
+  padding-top: 20px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-top: 30px;
+}
+
+.peoplereviewdiv .review {
+  width: 586px;
+  height: 142px;
+  border: 2px solid transparent;
+  display: flex;
+}
+
+.peoplereviewdiv .review.profilediv {
+  width: 100px;
+  height: 100px;
+  border: 4px solid transparent;
+  border-radius: 50%;
+}
+
+.profilediv img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.reviewtext {
+  width: 150px;
+  height: 100%;
+  margin-left: 26px;
+  border: 2px solid transparent;
+  text-align: left;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.reviewtext .h2 {
+  font-weight: 300;
+  color: rgb(29, 28, 28);
+}
+
+.reviewtext pre {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(29, 28, 28);
+  font-weight: bold;
+}
+
+/*===============================our skill ======================== */
+
+.skillDiv {
+  width: 100%;
+  height: 482px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: white;
+}
+
+.skillDiv h1 {
+  font-size: 46px;
+  font-weight: 600;
+  color: #668e19;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.skillDiv pre {
+  font-size: 14px;
+  font-weight: 600;
+  color: #cbc7c7;
+  margin-top: 8px;
+  margin-bottom: 37px;
+}
+
+.circleProgressDiv {
+  width: 914px;
+  height: 232px;
+  margin: auto;
+  border: 2px solid transparent;
+  display: flex;
+  gap: 59px;
+}
+
+.borderCircle {
+  width: 160px;
+  height: 160px;
+  margin-top: 14px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+}
+
+.topBorderCircle {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  border: 0px solid transparent;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBorderCircle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.progressCard {
+  width: 180px;
+  height: 230px;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.progressCard h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  margin-top: 52px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactDiv {
+  width: 100%;
+  height: 320px;
+  text-align: center;
+  border: 2px solid transparent;
+  background-color: #8dc73f;
+}
+
+.contactDiv h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.contactInputDiv {
+  width: 957px;
+  height: 50px;
+  border: 2px solid transparent;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.contactInputDiv input {
+  width: 232px;
+  height: 46px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #d2d3d5;
+  outline: none;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.contactInputDiv button {
+  width: 186px;
+  height: 46px;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: #febd19;
+  border-radius: 8px;
+  border: 6px groove#e79600;
+  color: #000;
+
+  &:hover {
+    color: rgb(15, 15, 15);
+    background-color: #e7b025;
+    padding: 6px;
+    cursor: pointer;
+  }
+}
+
+.contactDiv pre {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin-top: 33px;
+}
+
+/*===============================our contact======================== */
+
+.mapContactDiv {
+  width: 100%;
+  height: 608px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: white;
+}
+
+.mapContactDiv h1 {
+  font-size: 46px;
+  font-weight: 600;
+  color: #668e19;
+  margin-top: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mapContactDiv pre {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #a3a3a3;
+}
+
+.iconPreDiv {
+  width: 940px;
+  height: 44px;
+  border: 2px solid transparent;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+
+.mapIcon {
+  width: 35px;
+  height: 40px;
+  border: 2px solid transparent;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.iconPreDiv pre {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #000;
+}
+
+.mapPhoneDiv {
+  width: 800px;
+  height: 30px;
+  border: 2px solid transparent;
+  margin: auto;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.mapPhoneDiv p {
+  margin-left: 14px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.googleMapDiv {
+  width: 100%;
+  height: 354px;
+  border: 2px solid transparent;
+  margin-top: 34px;
+}
+
+/*===============================footer======================== */
+footer {
+  width: 100%;
+  height: 367px;
+  border: 2px solid transparent;
+  padding: 50px;
+  display: flex;
+  background-color: #678e19;
+}
+
+.footerFirstDiv {
+  width: 228px;
+  height: 276px;
+  border: 2px solid transparent;
+  margin-left: 120px;
+}
+
+.footerFirstDiv img {
+  width: 150px;
+}
+
+.footerFirstDiv p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.footerFirstDiv .copyRight {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.footerSecondDiv {
+  width: 201px;
+  height: 274px;
+  margin-left: 120px;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.footerSecondDiv h1 {
+  margin-top: -3px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.footerSecondDiv ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.footerSecondDiv ul li {
+  list-style: none;
+  margin-left: 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.footerSecondDiv ul li a {
+  color: white;
+}
+
+.socialIconDiv {
+  width: 166px;
+  height: 34px;
+  margin-top: -2px;
+  border: 2px solid transparent;
+  display: flex;
+  margin-left: -34px;
+}
+
+.circleIcon {
+  width: 30px;
+  height: 30px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  margin-top: 6px;
+  background-color: #303030;
+}
